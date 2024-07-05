@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style: none !important;
+    outline: none !important;
+    scroll-behavior: smooth;
+
+}
+@font-face {
+    font-family: "Segoe UI";
+    src: url(../segoe-ui-4-cufonfonts/Segoe\ UI.ttf);
+}
+body{
+    font-family:"Segoe UI" ;
+}
+
+.head{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)),url(../img/events-heavenly-header.jpg);
+    height: 100vh;
+    background-size: cover;
+    align-content: center;
+    /* position: relative; */
+    
+}
+.content h1{
+    font-weight: 500;
+    font-size: 3.75rem;
+    line-height: 4.5rem;
+    color: #fff;
+}
+.content p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #fff;
+}
+.head span{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    left:215px ;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #000;
+
+}
+.sidebar a{
+    display: inline-block;
+    width: 200px;
+    margin: 10px 0 50px 15px;
+    font-size: 1.7rem;
+    font-weight:400 ;
+    line-height: 1.25rem;
+    color: #fff;
+    transition: all .5s;
+}
+.sidebar a:hover{
+    color: #3d0a0a;
+}
+.sidebar .closebtn{
+    position: relative;
+    left: 170px;
+    cursor: pointer;
+} 
+main .singerLabel{
+    background-color: #E68184;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+main .singerContent{
+    background-color: #ccc;
+    padding: 10px;
+    color: #000;
+    display: none;
+}
+main .counter {
+    background-image: linear-gradient(rgba(255,0,0,.4),rgba(255,0,0,.4),rgba(255,0,0,.4)),url(../img/360_F_487163480_u4q13pQTIIbcVbolPiHKZFFlkfVrnVP3.jpg);
+    width: 100%;
+    height: 50vh;
+    background-size:contain;
+    justify-content: center !important;
+    align-content: center !important;
+}
+main .counter p{
+    padding: 30px 40px;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    border: 2px solid #fff;
+}
+footer .container{
+    padding: 100px 0;
+}
+#contact-us .contactHead h2 {
+    text-transform: uppercase;
+    font-size: 2.1rem;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#contact-us .contactHead p {
+    color: #777;
+    font-weight: 300;
+    font-size: 1rem;
+}
+#contact-us .con-info h3 {
+    color: #444;
+    font-size: 1.12rem;
+    font-weight: bolder;
+}
+#contact-us .con-info p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #777;
+}
+#contact-us .icons {
+    margin-top: 50px;
+}
+#contact-us .icons p {
+    margin-bottom: 2.1rem;
+    text-align: center;
+}
+#contact-us .red {
+    color: #D62E33 !important;
+}
+#contact-us .con-info .social-list {
+    margin-top: 3.75rem;
+    color: #777;
+}
+#contact-us .con-info .social-list i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 2.75rem;
+    cursor: pointer;
+    text-align: center;
+}
+#contact-us form input,
+#contact-us form textarea {
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+#contact-us form button {
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+#contact-us form textarea {
+    height: 200px;
+}
